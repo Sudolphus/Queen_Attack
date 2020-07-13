@@ -1,8 +1,8 @@
 using System;
 
-namespace projectSpace
+namespace QueenMain
 {
-  public class project
+  public class QueenAttack
   {
     public static void Main()
     {

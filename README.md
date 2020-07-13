@@ -1,45 +1,43 @@
-# _{Application Name}_
+# _Queen Attack_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _An app to detect squares under attack, 07.13.2020_
 
-#### By _**Micheal Hansen**_
+#### By _**Micheal Hansen & Spencer Moody**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This is a C# Console Application that takes in one square where a Chess Queen sits, and then a second square, and determines if the second square could be attacked by the queen._
 
 ## Specifications
 
 | Spec | Input | Output |
 | :--- | :---: | ---: |
-
+| Program inputs the Rank and File of a Chessboard to Locate a Queen from User | "3, 4" | Queen(3, 4) |
+| Program inputs the Rank and File of a Chessboard to Locate a Square from User | "2, 5" | None |
+| Program determines if the Queen can legally attack the given square | None | true |
 
 ## Setup/Installation Requirements
 
-Software Requirements
-1. Internet browser
-2. A code editor like VSCode or Atom to view or edit the codebase.
+Software Requirement:
+1. A code editor like VSCode or Atom to view or edit the codebase.
+2. A DOTNET-enabled terminal to run the application.
 
 Open by downloading:
 1. Download this repository onto your computer by clicking the 'clone or download button'
-2. Double click index.html to open it in your web browser
+2. In your terminal, navigate to the `queen_attack` directory and run `dotnet run` to activate the program
+3. Alternately, open the project folder in your code editor to alter the code.
 
 Open via Bash/GitBash:
 1. Clone this repository onto your computer:
 `git clone {PUT_REPO_HERE}`
 2. Navigate into the `{NAME_OF_DIRECTORY}` directory in Visual Studio Code or preferred text editor
 `code .`
-3. Get the necessary packages `npm install`.
-4. Compile the code `npm run build`.
-5. Open index.html in Chrome or preferred browser:
-`open dist/index.html`
-
-#### To see my live website go to [GH_PAGES_LINK_HERE](https://sudolphus.github.io/Portfolio/)!
+3. Run `dotnet run` to run the program in your console terminal.
 
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_None currently known_
 
 ## Support and contact details
 
@@ -47,15 +45,12 @@ _Please reach out through my GitHub account._
 
 ## Technologies Used
 
-* _HTML_
-* _CSS (including Bootstrap)_
-* _JavaScript (including jQuery)_
-* _VSCode_
-* _Node.js (including webpack)_
+* _VS Code Studio_
+* _C# & .NET_
 
 ### License
 
-Copyright (c) 2020 **_Micheal Hansen_**
+Copyright (c) 2020 **_Micheal Hansen & Spencer Moody_**
 
 *Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
